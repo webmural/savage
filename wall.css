@@ -1,0 +1,59 @@
+:root {
+  font-family: sans-serif;
+  font-size: calc(1em + 2vmin + 3vmax);
+}
+
+:focus {
+  outline-style: dashed;
+  outline-width: thick;
+}
+
+body {
+  margin: auto;
+  overflow-wrap: anywhere;
+}
+
+figure {
+  margin: auto;
+  padding-block-end: 3rem;
+}
+
+strong {
+  font-size: 1.618em;
+}
+
+blockquote {
+  display: flex;
+  flex-flow: column;
+  font-weight: bold;
+  justify-content: center;
+}
+
+.runway {
+  align-self: center;
+  align-items: center;
+  font-size: 2em;
+  margin-block-start: 13vh;
+  margin-block-end: 21vh;
+}
+
+.hand {
+  font-size: 1.618em;
+  margin-block-start: 2em;
+}
+
+.subway {
+  font-size: 2em;
+}
+
+figcaption {
+  position: absolute;
+  top: 143vh;
+  padding: 5vmin;
+  font-family: monospace;
+  font-size: .5rem;
+}
+
+aside {
+  margin-block-start: 50vh;
+}
